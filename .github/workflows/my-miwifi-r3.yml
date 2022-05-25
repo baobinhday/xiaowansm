@@ -165,7 +165,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        name: ${{ steps.tag.outputs.release_date }} 新路由3 newifi-d2
+        name: ${{ steps.tag.outputs.release_date }} 新路由3 miwifi-r3
         tag_name: ${{ steps.tag.outputs.release_tag }}
         body_path: release.txt
         files: ${{ env.FIRMWARE }}/*
